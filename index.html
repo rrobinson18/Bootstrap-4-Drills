@@ -8,33 +8,113 @@
     <title>Setup Bootstrap</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <div class="container">
-        <h1 class="text-center">Sizing and Spacing</h1>
-        <div class="row">
-            <div class="col-4">
-                <div class="bg-primary">
-                    <h1 class="text-white pl-3  text-center py-3">Hello</h1>
-                </div>
+        <div class="row justify-content-center">
+            <div>
+                <h1>First Bootstrap Project</h1>
             </div>
         </div>
+        <div class="row">
+            <div class="col bg-primary align-self-start">Colum 1</div>
+            <div class="col bg-secondary align-self-center">Colum 2</div>
+            <div class="col bg-info align-self-end">Colum 3</div>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never shared your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" value="" id="defaultCheck1">
+                <label class="form-check-label" for="exampleCheck1">Cats</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" value="" id="defaultCheck1">
+                <label class="form-check-label" for="exampleCheck1">Dogs</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                    checked>
+                <label class="form-check-label" for="exampleRadios1">Chesse Pizza</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">Veggie Pizza</label>
+            </div>
+            <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">Meat Pizza</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Tiaira</h3>
+                        <p class="card-text">Tiaira and I have been best friends since middle school. She is like a
+                            sister to me.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Bre</h3>
+                        <p class="card-text">Bre is my favorite cousin. I can tell her anything.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Roland</h3>
+                        <p class="card-text">Roland is my husand and 2nd child. :-)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Rolo</h3>
+                        <p class="card-text">Rolo also known as Roland is my 9 year old son and my heart.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Brenda</h3>
+                        <p class="card-text">Brenda is known to me as my mom.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Dre</h3>
+                        <p class="card-text">Dre is my brother and my old partner in crime.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
 
-    <div class="width-container">
-            <div class="w-25 p-3">Width 25%</div>
-            <div class="w-50 p-3">Width 50%</div>
-            <div class="w-75 p-3">Width 75%</div>
-            <div class="w-100 p-3">Width 100%</div>
-        </div>
-        <div class="height-container h-100">
-            <div class="h-25 my-2">Height 25%</div>
-            <div class="h-50 my-2">Height 50%</div>
-            <div class="h-75 my-2">Height 75%</div>
-            <div class="h-100 my-2">Height 100%</div>
-        </div>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
